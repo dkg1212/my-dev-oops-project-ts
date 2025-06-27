@@ -1,0 +1,11 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es6",                     // Compile to modern JavaScript (ES6)
+    "module": "commonjs",                // Use standard Node.js module system
+    "outDir": "dist",                    // Put compiled JavaScript files in a 'dist' folder
+    "rootDir": "src",                    // Your source TypeScript files are in a 'src' folder
+    "strict": true,                      // Enable all strict type-checking options
+    "esModuleInterop": true              // Allows better compatibility with 'require' modules
+  }
+}
